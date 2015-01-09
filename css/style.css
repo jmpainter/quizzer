@@ -7,7 +7,8 @@ body {
 	padding: 2rem;
 	width: 700px;
 	/*height: 700px;*/
-	background-color: #f5f9a4;
+/*	background-color: #f5f9a4; */
+	background-color: black;
 	border: 1px solid #878787;
 	text-align: center;
 }
@@ -15,11 +16,9 @@ h1 {
 	font-family: Righteous, sans-serif;
 	font-size: 4.5rem;
 	margin-bottom: 3rem;
+	color: white;
 }
 .button {
-	font-size: 1.4rem;
-	height: 4rem;
-	line-height: 4rem;
 	margin: 1rem auto;
 	border-radius: 2rem 0 0 2rem;
 	border: 1px solid #878787;
@@ -34,19 +33,27 @@ h1 {
 }
 .category {
 	background-color: #F44336;
+	font-size: 1.4rem;
+	height: 3.5rem;
+	line-height: 3.5rem;	
 }
 
 .answer {
-	background-color: #9C27B0;
+/*	background-color: #673AB7;*/
+	background-color: black;
 	text-align: left;
 	padding-left: 3rem;
+	width: 55%;
+	font-size: 1.1rem;
+	height: 3rem;
+	line-height: 3rem;	
 }
 
 .button:hover {
 	cursor: pointer;
 }
 .category:hover {
-	background-color: #f7ada8;
+	background-color: #ffc4b2;
 }
 .answer:hover {
 	background-color: #ea95f9;
@@ -62,7 +69,7 @@ h1 {
 	background-color: #fff;
 	border-radius: 1rem;
 	border: 1px solid #dbdbdb;	
-	margin: 2rem;
+	margin: 2rem auto;
 }
 #dialog {
 	font-size: 2rem;
@@ -75,5 +82,10 @@ h1 {
 	font-size: 1.1rem;
 	padding: 2rem;
 	text-align: left;
+	width: 55%;
+	margin-bottom: 1rem;
+}
+#question-image{
+	border: 1px solid #898989;
 }
 
