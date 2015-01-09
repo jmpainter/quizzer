@@ -46,7 +46,14 @@ h1 {
 	width: 55%;
 	font-size: 1.1rem;
 	height: 3rem;
-	line-height: 3rem;	
+	line-height: 3rem;
+	display: none;
+	-webkit-transform: translate3d(-2000px, 0, 0);
+	transform: translate3d(-2000px, 0, 0);	
+}
+
+#question-board {
+/*	display: none;*/
 }
 
 .button:hover {
@@ -76,6 +83,7 @@ h1 {
 	padding: 3rem;
 	height: 14rem;
 	text-align: center;
+	display: none;
 }
 #question {
 	background-color: #fff;
@@ -87,5 +95,77 @@ h1 {
 }
 #question-image{
 	border: 1px solid #898989;
+}
+
+/* Animations */
+
+@-webkit-keyframes exitLeft {
+	0% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-2000px, 0, 0);
+		transform: translate3d(-2000px, 0, 0);
+	}
+}
+
+@keyframes exitLeft {
+	0% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translate3d(-2000px, 0, 0);
+		transform: translate3d(-2000px, 0, 0);
+	}
+}
+
+.exitLeft {
+	-webkit-animation-name: exitLeft;
+	animation-name: exitLeft;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;	
+}
+
+@-webkit-keyframes enterBottom {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 2000px, 0);
+		transform: translate3d(0, 2000px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes enterBottom {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 2000px, 0);
+		transform: translate3d(0, 2000px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.enterBottom {
+	-webkit-animation-name: enterBottom;
+	animation-name: enterBottom;
 }
 
