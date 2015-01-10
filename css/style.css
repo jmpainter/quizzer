@@ -6,12 +6,11 @@ body {
 	margin: 2rem auto;
 	padding: 2rem;
 	width: 700px;
-	/*height: 700px;*/
-/*	background-color: #f5f9a4; */
 	background-color: black;
 	border: 1px solid #878787;
 	text-align: center;
 	height: 80vh;
+	position: relative;
 }
 h1 {
 	font-family: Righteous, sans-serif;
@@ -94,6 +93,12 @@ h1 {
 	border: 1px solid #898989;
 	width: 35%;
 	border-radius: 5px;
+}
+#home-button {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	display: none;
 }
 
 /* Animations */

@@ -9,7 +9,11 @@ $(document).ready(function () {
 		}
 	}
 
+	var currentCategory = 0;
+
 	$('.category').click(function () {
+		currentCategory = Number($(this).attr('id').substr(9));
+		debug('currentCategory: ' + currentCategory);
 		$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass();
 			$('#home').css('display', 'none');
@@ -20,6 +24,7 @@ $(document).ready(function () {
 		$('#question-board').css('display', 'block');
 		$('#question-board').addClass('enterBottom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('enterBottom');
+			$('#home-button').css('display', 'block');
     		showAnswers();
 		});
 	}
@@ -41,4 +46,7 @@ $(document).ready(function () {
 			});
 		});
 	}
+	$('.answer').click(function () {
+		alert(this.id);
+	});	
 });
