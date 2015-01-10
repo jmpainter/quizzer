@@ -53,6 +53,7 @@ $(document).ready(function () {
 		$('#answer-b-text').text(curQuestion.answerB);
 		$('#answer-c-text').text(curQuestion.answerC);
 		$('#answer-d-text').text(curQuestion.answerD);
+		$('#question-image').attr('src', 'images/question_images/cat' + curQuestion.category + 'q' + curQuestion.questionNum + '.jpg');
 	}
 
 	$('.answer').click(function () {
