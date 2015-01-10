@@ -7,6 +7,7 @@
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Righteous|Roboto' rel='stylesheet' type='text/css'>	
 	<script src="js/app.js"></script>
+	<script src="js/data.js"></script>	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">		
 	<meta charset="UTF-8">
 	<title>Quizzer</title>
@@ -26,12 +27,12 @@
 		<img id="home-button" src="images/home.svg" alt="home" width="30" height="30">
 		<div id="question-board">
 			<img id="question-image" src="images/babies.jpg" width="300">
-			<div id="question">In the year 1900 in the U.S. what were the most popular first names given to boy and girl babies?</div>
+			<div id="question"></div>
 		</div>
-		<div id="answer-a" class="answer button"><span class="answer-letter">A.</span> William and Elizabeth</div>
-		<div id="answer-b" class="answer button"><span class="answer-letter">B.</span> Joseph and Catherine</div>
-		<div id="answer-c" class="answer button"><span class="answer-letter">C.</span> John and Mary</div>
-		<div id="answer-d" class="answer button"><span class="answer-letter">D.</span> George and Anne</div>
+		<div id="answer-a" class="answer button"><span class="answer-letter">A.</span> <span id="answer-a-text"></span></div>
+		<div id="answer-b" class="answer button"><span class="answer-letter">B.</span> <span id="answer-b-text"></span></div>
+		<div id="answer-c" class="answer button"><span class="answer-letter">C.</span> <span id="answer-c-text"></span></div>
+		<div id="answer-d" class="answer button"><span class="answer-letter">D.</span> <span id="answer-d-text"></span></div>
 	</div>
 </body>
 </html>

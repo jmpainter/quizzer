@@ -9,11 +9,18 @@ $(document).ready(function () {
 		}
 	}
 
-	var currentCategory = 0;
+	var curCategory = 0;
+	var curAnswerOut = '';
+	var curQuestion = null;
 
 	$('.category').click(function () {
-		currentCategory = Number($(this).attr('id').substr(9));
-		debug('currentCategory: ' + currentCategory);
+		curCategory = Number($(this).attr('id').substr(9));
+		debug('cat' + curCategory + 'question1');
+		curQuestion = window['cat' + curCategory + 'question1'];
+		debug(curQuestion);
+		loadQuestionBoard();		
+
+		debug('curCategory: ' + curCategory);
 		$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass();
 			$('#home').css('display', 'none');
@@ -25,27 +32,29 @@ $(document).ready(function () {
 		$('#question-board').addClass('enterBottom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('enterBottom');
 			$('#home-button').css('display', 'block');
-    		showAnswers();
+			curAnswerOut = 'a';
+    		sendNextAnswer();
 		});
 	}
-	function showAnswers() {
-		$('#answer-a').css('display', 'block');		
-		$('#answer-a').addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-			$(this).removeClass('enterLeft');
-			$('#answer-b').css('display', 'block');		
-			$('#answer-b').addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+	function sendNextAnswer() {
+		var nextLetter = String.fromCharCode(curAnswerOut.charCodeAt(0) + 1);
+		if (curAnswerOut != 'e') {
+			$('#answer-' + curAnswerOut).css('display', 'block');		
+			$('#answer-' + curAnswerOut).addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('enterLeft');
-				$('#answer-c').css('display', 'block');		
-				$('#answer-c').addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-					$(this).removeClass('enterLeft');
-					$('#answer-d').css('display', 'block');		
-					$('#answer-d').addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-						$(this).removeClass('enterLeft');
-					});						
-				});				
-			});
-		});
+				sendNextAnswer()
+			});			
+			curAnswerOut = nextLetter;
+		}
 	}
+	function loadQuestionBoard() {
+		$('#question').text(curQuestion.question);
+		$('#answer-a-text').text(curQuestion.answerA);
+		$('#answer-b-text').text(curQuestion.answerB);
+		$('#answer-c-text').text(curQuestion.answerC);
+		$('#answer-d-text').text(curQuestion.answerD);
+	}
+
 	$('.answer').click(function () {
 		alert(this.id);
 	});	
