@@ -3,7 +3,7 @@ body {
 	font-family: Roboto, sans-serif;
 }
 #main {
-	margin: 3rem auto;
+	margin: 2rem auto;
 	padding: 2rem;
 	width: 700px;
 	/*height: 700px;*/
@@ -11,6 +11,7 @@ body {
 	background-color: black;
 	border: 1px solid #878787;
 	text-align: center;
+	height: 80vh;
 }
 h1 {
 	font-family: Righteous, sans-serif;
@@ -39,7 +40,6 @@ h1 {
 }
 
 .answer {
-/*	background-color: #673AB7;*/
 	background-color: black;
 	text-align: left;
 	padding-left: 3rem;
@@ -48,12 +48,10 @@ h1 {
 	height: 3rem;
 	line-height: 3rem;
 	display: none;
-	-webkit-transform: translate3d(-2000px, 0, 0);
-	transform: translate3d(-2000px, 0, 0);	
 }
 
 #question-board {
-/*	display: none;*/
+	display: none;
 }
 
 .button:hover {
@@ -76,7 +74,6 @@ h1 {
 	background-color: #fff;
 	border-radius: 1rem;
 	border: 1px solid #dbdbdb;	
-	margin: 2rem auto;
 }
 #dialog {
 	font-size: 2rem;
@@ -87,14 +84,16 @@ h1 {
 }
 #question {
 	background-color: #fff;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	padding: 2rem;
 	text-align: left;
 	width: 55%;
-	margin-bottom: 1rem;
+	margin: 3rem auto 1rem;
 }
 #question-image{
 	border: 1px solid #898989;
+	width: 35%;
+	border-radius: 5px;
 }
 
 /* Animations */
@@ -132,8 +131,8 @@ h1 {
 	animation-name: exitLeft;
 	-webkit-animation-duration: 1.2s;
 	animation-duration: 1.2s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;	
+	-webkit-animation-fill-mode: forward;
+	animation-fill-mode: forward;	
 }
 
 @-webkit-keyframes enterBottom {
@@ -167,5 +166,46 @@ h1 {
 .enterBottom {
 	-webkit-animation-name: enterBottom;
 	animation-name: enterBottom;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+	-webkit-animation-fill-mode: forward;
+	animation-fill-mode: forward;		
+}
+
+@-webkit-keyframes enterLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-2000px, 0, 0);
+		transform: translate3d(-2000px, 0, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes enterLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(-2000px, 0, 0);
+		transform: translate3d(-2000px, 0, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.enterLeft {
+	-webkit-animation-name: enterLeft;
+	animation-name: enterLeft;
+	-webkit-animation-duration: .15s;
+	animation-duration: .15s;
+	-webkit-animation-fill-mode: forward;
+	animation-fill-mode: forward;		
 }
 
