@@ -34,7 +34,6 @@ $(document).ready(function () {
 		$('#question-board').css('display', 'block');
 		$('#question-board').addClass('enterBottom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('enterBottom');
-			$('#home-button').css('display', 'block');
 			curAnswerOut = 0;
     		sendNextAnswer();
 		});
@@ -86,6 +85,7 @@ $(document).ready(function () {
 		}
 		if(curQuestion.questionNum == 2) {
 			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/10 </h2>';
+			numCorrect = 0;
 		}
 		else {
 			dialogMessage = dialogMessage + 'Your current score: ' + numCorrect + '/10';
@@ -137,17 +137,15 @@ $(document).ready(function () {
 		});			
 		$('#dialog').css('display', 'none');
 		$('#question-frame').css('display', 'none');
-		$('#question-frame').children().css("display", "none");		
-		$('#home').css('display', 'block');
-		$('#home').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-			$(this).removeClass('fadeIn');
-		});	
+		$('#question-frame').children().css("display", "none");
+		numCorrect = 0;	
+		showCategories();
 	});
 
 	function showCategories() {
 		$('#home').css('display', 'block');
-		$('#home').addClass('enterLeftSlow').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-			$(this).removeClass('enterLeftSlow');
-		});				
+		$('#home').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).removeClass('fadeIn');
+		});			
 	}
 });
