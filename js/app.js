@@ -42,8 +42,8 @@ $(document).ready(function () {
 	function sendNextAnswer() {
 		if (curAnswerOut != 4) {
 			$('#answer-' + curAnswerOut).css('display', 'block');		
-			$('#answer-' + curAnswerOut).addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-				$(this).removeClass('enterLeft');
+			$('#answer-' + curAnswerOut).addClass('enterLeftFast').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$(this).removeClass('enterLeftFast');
 				sendNextAnswer()
 			});			
 			curAnswerOut++;
@@ -96,6 +96,7 @@ $(document).ready(function () {
 
 	$('#dialog-next').click(function() {
 		if(curQuestion.questionNum == 2) {
+			curQuestion = null;
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
 				$(this).css('display', 'none');
@@ -113,5 +114,10 @@ $(document).ready(function () {
 		}
 	});
 
-
+	function showCategories() {
+		$('#home').css('display', 'block');
+		$('#home').addClass('enterLeftSlow').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).removeClass('enterLeftSlow');
+		});				
+	}
 });
