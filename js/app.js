@@ -12,51 +12,106 @@ $(document).ready(function () {
 	var curCategory = 0;
 	var curAnswerOut = '';
 	var curQuestion = null;
+	var numCorrect = 0;
 
 	$('.category').click(function () {
 		curCategory = Number($(this).attr('id').substr(9));
 		debug('cat' + curCategory + 'question1');
 		curQuestion = window['cat' + curCategory + 'question1'];
 		debug(curQuestion);
-		loadQuestionBoard();		
+		loadQuestion();		
 
 		debug('curCategory: ' + curCategory);
 		$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass();
 			$('#home').css('display', 'none');
-			showQuestionBoard('exitLeft');
+			showQuestion();
 		});		
 	});
-	function showQuestionBoard() {
+
+	function showQuestion() {
+		$('#question-frame').css('display', 'block');	
 		$('#question-board').css('display', 'block');
 		$('#question-board').addClass('enterBottom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('enterBottom');
 			$('#home-button').css('display', 'block');
-			curAnswerOut = 'a';
+			curAnswerOut = 0;
     		sendNextAnswer();
 		});
 	}
 	function sendNextAnswer() {
-		var nextLetter = String.fromCharCode(curAnswerOut.charCodeAt(0) + 1);
-		if (curAnswerOut != 'e') {
+		if (curAnswerOut != 4) {
 			$('#answer-' + curAnswerOut).css('display', 'block');		
 			$('#answer-' + curAnswerOut).addClass('enterLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('enterLeft');
 				sendNextAnswer()
 			});			
-			curAnswerOut = nextLetter;
+			curAnswerOut++;
 		}
 	}
-	function loadQuestionBoard() {
+	function loadQuestion() {
 		$('#question').text(curQuestion.question);
-		$('#answer-a-text').text(curQuestion.answerA);
-		$('#answer-b-text').text(curQuestion.answerB);
-		$('#answer-c-text').text(curQuestion.answerC);
-		$('#answer-d-text').text(curQuestion.answerD);
+		letterArray = ['A', 'B', 'C', 'D'];
+		for (var i = 0; i < 4; i++) {
+			$('#answer-' + i + '-text').text(letterArray[i] + '. ' + curQuestion.answers[i]);
+		}
 		$('#question-image').attr('src', 'images/question_images/cat' + curQuestion.category + 'q' + curQuestion.questionNum + '.jpg');
 	}
-
 	$('.answer').click(function () {
-		alert(this.id);
-	});	
+		var playerAnswer = Number($(this).attr('id').substr(7));
+		var dialogMessage = '';
+		if (playerAnswer == curQuestion.correctAnswerIndex) {
+			numCorrect++;
+			dialogMessage = 'Correct!';
+		}
+		else {
+			dialogMessage = 'Sorry, The answer is: <br /><br />' + 
+			curQuestion.answers[curQuestion.correctAnswerIndex];
+		}
+		if(curQuestion.questionNum == 2) {
+			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/10 </h2>';
+		}
+		else {
+			dialogMessage = dialogMessage + '<br /><br /> Your current score: ' + numCorrect + '/10';
+		}
+		$('#message').html(dialogMessage);
+		hideQuestion();	
+	});
+
+	function hideQuestion() {
+		$('#question-frame').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+			$(this).removeClass('fadeOut');
+			$(this).css('display', 'none');
+			$(this).children().css("display", "none");
+			showDialog();
+		});	
+	}
+
+	function showDialog() {
+		$('#dialog').css('display', 'block');
+		$('#dialog').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+			$(this).removeClass('fadeIn');
+		});			
+	}
+
+	$('#dialog-next').click(function() {
+		if(curQuestion.questionNum == 2) {
+			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$(this).removeClass('fadeOut');
+				$(this).css('display', 'none');
+				showCategories();
+			});
+		}
+		else {
+			curQuestion = window['cat' + curCategory + 'question' + (curQuestion.questionNum + 1)];
+			loadQuestion();
+			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$(this).removeClass('fadeOut');
+				$(this).css('display', 'none');
+				showQuestion();
+			});
+		}
+	});
+
+
 });
