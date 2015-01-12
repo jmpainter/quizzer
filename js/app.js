@@ -49,11 +49,15 @@ $(document).ready(function () {
 			curAnswerOut++;
 		}
 	}
+	function convertToLetter(number) {
+		letterArray = ['A', 'B', 'C', 'D'];
+		return letterArray[number];
+	}
+
 	function loadQuestion() {
 		$('#question').text(curQuestion.question);
-		letterArray = ['A', 'B', 'C', 'D'];
-		for (var i = 0; i < 4; i++) {
-			$('#answer-' + i + '-text').text(letterArray[i] + '. ' + curQuestion.answers[i]);
+			for (var i = 0; i < 4; i++) {
+			$('#answer-' + i + '-text').text(convertToLetter(i) + '. ' + curQuestion.answers[i]);
 		}
 		$('#question-image').attr('src', 'images/question_images/cat' + curQuestion.category + 'q' + curQuestion.questionNum + '.jpg');
 	}
@@ -63,16 +67,28 @@ $(document).ready(function () {
 		if (playerAnswer == curQuestion.correctAnswerIndex) {
 			numCorrect++;
 			dialogMessage = 'Correct!';
+			if(curQuestion.questionNum == 2) {
+				dialogMessage = 'Correct!'; 
+			}
+			else {
+				dialogMessage = '<h2>Correct!</h2>';
+			}			
 		}
 		else {
-			dialogMessage = 'Sorry, The answer is: <br /><br />' + 
-			curQuestion.answers[curQuestion.correctAnswerIndex];
+			if(curQuestion.questionNum == 2) {
+				dialogMessage = 'Sorry, The answer is: ' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' + 
+				curQuestion.answers[curQuestion.correctAnswerIndex];
+			}
+			else {
+				dialogMessage = 'Sorry, The answer is: <h3>' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' +
+				curQuestion.answers[curQuestion.correctAnswerIndex] + '</h3>';
+			}
 		}
 		if(curQuestion.questionNum == 2) {
 			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/10 </h2>';
 		}
 		else {
-			dialogMessage = dialogMessage + '<br /><br /> Your current score: ' + numCorrect + '/10';
+			dialogMessage = dialogMessage + 'Your current score: ' + numCorrect + '/10';
 		}
 		$('#message').html(dialogMessage);
 		hideQuestion();	
@@ -88,6 +104,7 @@ $(document).ready(function () {
 	}
 
 	function showDialog() {
+		debug('showDialog');
 		$('#dialog').css('display', 'block');
 		$('#dialog').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 			$(this).removeClass('fadeIn');
@@ -112,6 +129,19 @@ $(document).ready(function () {
 				showQuestion();
 			});
 		}
+	});
+
+	$('#home-button').click(function() {
+		$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).removeClass('fadOut');
+		});			
+		$('#dialog').css('display', 'none');
+		$('#question-frame').css('display', 'none');
+		$('#question-frame').children().css("display", "none");		
+		$('#home').css('display', 'block');
+		$('#home').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+			$(this).removeClass('fadeIn');
+		});	
 	});
 
 	function showCategories() {

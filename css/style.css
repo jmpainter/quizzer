@@ -95,7 +95,11 @@ h1 {
 }
 #dialog h2 {
 	font-size: 2.2rem;
-	margin-top: 2rem;
+	margin: 2rem;
+}
+#dialog h3 {
+	font-size: 2rem;
+	margin: 2rem;
 }
 #dialog-next {
 	display: block;
@@ -129,6 +133,7 @@ a:hover {
 	top: 1rem;
 	right: 1rem;
 	display: none;
+	cursor: pointer;
 }
 
 /* Animations */
