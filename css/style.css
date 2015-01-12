@@ -4,12 +4,12 @@ body {
 }
 #main {
 	margin: 2rem auto;
-	padding: 2rem;
+	padding: 3.5rem 2rem;
 	width: 700px;
 	background-color: black;
 	border: 1px solid #878787;
 	text-align: center;
-	height: 80vh;
+	height: 85vh;
 	position: relative;
 }
 h1 {
