@@ -123,7 +123,8 @@ var cat1question10 = {
 				 'the first',
 				 'the ninth',
 				 'the fourteenth'],
-	correctAnswerIndex : 
+	correctAnswerIndex : 0
+};
 
 var cat1question11 = {
 	category: 1,
@@ -207,14 +208,14 @@ var cat2question5 = {
 };
 
 var cat2question6 = {
-	category 2: ,
-	questionNum 6: ,
+	category : 2,
+	questionNum : 6,
 	question : 'Goldie Hawn\'s  real first name is what?',
 	answers: ['Godiva',
 				 'Goldie',
 				 'Gloria',
 				 'Grace'],
-	correctAnswerIndex : 
+	correctAnswerIndex : 1
 };
 
 var cat2question7 = {
@@ -373,7 +374,8 @@ var cat3question9 = {
 				 'Geneva, Switzerland',
 				 'Paris, France'],
 	correctAnswerIndex : 1
- 
+};
+
 var cat3question9 = {
 	category : 3,
 	questionNum : 9,
@@ -421,7 +423,7 @@ var cat3question11 = {
 var cat3question12 = {
 	category : 3,
 	questionNum : 12,
-	question : 'At the time of the Declaration of Independence what was the approximate  population of the United States?',
+	question : 'At the time of the Declaration of Independence what was the approximate population of the United States?',
 	answers: ['20,000',
 				 '200,000',
 				 '2,000,000',

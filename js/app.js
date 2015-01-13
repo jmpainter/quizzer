@@ -13,6 +13,7 @@ $(document).ready(function () {
 	var curAnswerOut = '';
 	var curQuestion = null;
 	var numCorrect = 0;
+	var numQuestions = 12;
 
 	$('.category').click(function () {
 		curCategory = Number($(this).attr('id').substr(9));
@@ -66,7 +67,7 @@ $(document).ready(function () {
 		if (playerAnswer == curQuestion.correctAnswerIndex) {
 			numCorrect++;
 			dialogMessage = 'Correct!';
-			if(curQuestion.questionNum == 2) {
+			if(curQuestion.questionNum == numQuestions) {
 				dialogMessage = 'Correct!'; 
 			}
 			else {
@@ -74,21 +75,21 @@ $(document).ready(function () {
 			}			
 		}
 		else {
-			if(curQuestion.questionNum == 2) {
-				dialogMessage = 'Sorry, The answer is: ' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' + 
+			if(curQuestion.questionNum == numQuestions) {
+				dialogMessage = 'Sorry, the answer is: ' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' + 
 				curQuestion.answers[curQuestion.correctAnswerIndex];
 			}
 			else {
-				dialogMessage = 'Sorry, The answer is: <h3>' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' +
+				dialogMessage = 'Sorry, the answer is: <h3>' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' +
 				curQuestion.answers[curQuestion.correctAnswerIndex] + '</h3>';
 			}
 		}
-		if(curQuestion.questionNum == 2) {
-			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/10 </h2>';
+		if(curQuestion.questionNum == numQuestions) {
+			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/' + numQuestions + ' </h2>';
 			numCorrect = 0;
 		}
 		else {
-			dialogMessage = dialogMessage + 'Your current score: ' + numCorrect + '/10';
+			dialogMessage = dialogMessage + 'Your current score: ' + numCorrect + '/' +  numQuestions;
 		}
 		$('#message').html(dialogMessage);
 		hideQuestion();	
@@ -112,7 +113,7 @@ $(document).ready(function () {
 	}
 
 	$('#dialog-next').click(function() {
-		if(curQuestion.questionNum == 2) {
+		if(curQuestion.questionNum == numQuestions) {
 			curQuestion = null;
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
