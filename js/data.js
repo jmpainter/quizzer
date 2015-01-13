@@ -61,9 +61,9 @@ var cat1question4 = {
 };
 
 var cat1question5 = {
-	category: ,
-	questionNum : ,
-	question : '',
+	category: 1,
+	questionNum : 5,
+	question : 'What did the \'D\' in D-Day stand for?',
 	answers: ['doom',
 				 'day',
 				 'Dwight (Eisenhower)',
