@@ -310,6 +310,17 @@ var cat3question2 = {
 	correctAnswerIndex : 2
 };
 
+var cat3question3 = {
+	category : 3,
+	questionNum : 3,
+	question : 'Which American commander said, "I have not yet begun to fight"?',
+	answers: ['John Paul Jones',
+				 'David Farragut',
+				 'George Dewey',
+				 'Oliver Hazard Perry'],
+	correctAnswerIndex : 0
+};
+
 var cat3question4 = {
 	category : 3,
 	questionNum : 4,
@@ -376,20 +387,9 @@ var cat3question9 = {
 	correctAnswerIndex : 1
 };
 
-var cat3question9 = {
+var cat3question10 = {
 	category : 3,
-	questionNum : 9,
-	question : 'Which American commander said, "I have not yet begun to fight"?',
-	answers: ['John Paul Jones',
-				 'David Farragut',
-				 'George Dewey',
-				 'Oliver Hazard Perry'],
-	correctAnswerIndex : 0
-};
-
-var cat3question9 = {
-	category : 3,
-	questionNum : 9,
+	questionNum : 10,
 	question : 'John Brown of Civil War fame was which?',
 	answers: ['an abolitionist',
 				 'a slave',
@@ -398,9 +398,9 @@ var cat3question9 = {
 	correctAnswerIndex : 0 
 };
 
-var cat3question10 = {
+var cat3question11 = {
 	category : 3,
-	questionNum : 10,
+	questionNum : 11,
 	question : 'What frontier marshal was murdered in 1876 in Deadwood, South Dakota, by outlaw Jack McCall?',
 	answers: ['Buffalo Bill Cody',
 				 'Matt Dillon',
@@ -409,25 +409,14 @@ var cat3question10 = {
 	correctAnswerIndex : 2
 };
 
-var cat3question11 = {
+var cat3question12 = {
 	category : 3,
-	questionNum : 11,
+	questionNum : 12,
 	question : 'In what year did Leonard Kristensen of Norway lead the first party to land on the mainland of Antarctica?',
 	answers: ['1795',
 				 '1845',
 				 '1895',
 				 '1945'],
-	correctAnswerIndex : 2
-};
-
-var cat3question12 = {
-	category : 3,
-	questionNum : 12,
-	question : 'At the time of the Declaration of Independence what was the approximate population of the United States?',
-	answers: ['20,000',
-				 '200,000',
-				 '2,000,000',
-				 '20,000,000'],
 	correctAnswerIndex : 2
 };
 
