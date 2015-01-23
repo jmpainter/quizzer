@@ -1,0 +1,326 @@
+[
+  {
+	 "category": 0,
+	 "id": 0,
+	 "question": "In the year 1900 in the U.S. what were the most popular first names given to boy and girl babies?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "William and Elizabeth",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "Joseph and Catherine",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "John and Mary",
+		  "correct": true
+		},
+		{
+		  "id": 3,
+		  "answer": "George and Anne",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 1,
+	 "question": "When did the Liberty Bell get its name?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "When it was made, in 1701",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "When it rang on July 4, 1776",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "In the 19th century, when it became a symbol of the abolition of slavery",
+		  "correct": true
+		},
+		{
+		  "id": 3,
+		  "answer": "None of the above",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 2,
+	 "question": "Which of the following items was owned by the fewest U.S. homes in 1990?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "home computer",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "compact disk player",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "cordless phone",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "dishwasher",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 3,
+	 "question": "Who is third behind Hank Aaron and Babe Ruth in major league career home runs?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "Reggie Jackson",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "Harmon Killebrew",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "Willie Mays",
+		  "correct": true
+		},
+		{
+		  "id": 3,
+		  "answer": "Frank Robinson",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 4,
+	 "question": "What did the 'D' in D-Day stand for?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "doom",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "day",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "Dwight (Eisenhower)",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "Dunkirk",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 5,
+	 "question": "The Brownie Box Camera introduced by Eastman Kodak in 1900 had a retail price of what?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "$1",
+		  "correct": true
+		},
+		{
+		  "id": 1,
+		  "answer": "$5",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "$10",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "$20",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 6,
+	 "question": "In J. Edgar Hoover, what did the J stand for?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "James",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "John",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "Joseph",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "Jerry",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 7,
+	 "question": "Which character,in the Wizard of Oz,does Dorothy say she'll miss 'most of all' when she leaves Oz?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "The Wizard",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "The Scarecrow",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "The Cowardly Lion",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "The Tin Man",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 8,
+	 "question": "In the House of Representatives which state has more than one seat?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "Alaska",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "Hawaii",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "Vermont",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "Wyoming",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 9,
+	 "question": "The Constitution protects citizens against 'unreasonable searches and seizures' with which amendment?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "the fourth",
+		  "correct": true
+		},
+		{
+		  "id": 1,
+		  "answer": "the first",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "the ninth",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "the fourteenth",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 10,
+	 "question": "What is the most popular name for a dog in the U.S. according to  Harper's Index Book?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "Fluffy",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "Rover",
+		  "correct": true
+		},
+		{
+		  "id": 2,
+		  "answer": "Max",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "Spot",
+		  "correct": false
+		}
+	 ]
+  },
+  {
+	 "category": 0,
+	 "id": 11,
+	 "question": "Candlemass is known by what name in the United States?",
+	 "answers": [
+		{
+		  "id": 0,
+		  "answer": "April Fool's Day",
+		  "correct": false
+		},
+		{
+		  "id": 1,
+		  "answer": "Halloween",
+		  "correct": false
+		},
+		{
+		  "id": 2,
+		  "answer": "Thanksgiving",
+		  "correct": false
+		},
+		{
+		  "id": 3,
+		  "answer": "Groundhog Day",
+		  "correct": true
+		}
+	 ]
+  }
+]

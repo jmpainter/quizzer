@@ -15,6 +15,17 @@ $(document).ready(function () {
 	var numCorrect = 0;
 	var numQuestions = 12;
 
+	//test json file
+
+	$.getJSON( "ajax/cat" + curCategory + ".json", function( data ) {
+		console.log(data);
+//		$.each( data, function( key, val ) {
+//			console.log(key + ' ' + val);
+//		});
+	});
+
+	//
+
 	$('.category').click(function () {
 		curCategory = Number($(this).attr('id').substr(9));
 		debug('cat' + curCategory + 'question1');
