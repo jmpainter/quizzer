@@ -12,34 +12,30 @@ $(document).ready(function () {
 	var curCategory = 0;
 	var curAnswerOut = '';
 	var curQuestion = null;
+	var categoryData = null;
 	var numCorrect = 0;
 	var numQuestions = 12;
-
-	//test json file
-
-	$.getJSON( "ajax/cat" + curCategory + ".json", function( data ) {
-		console.log(data);
-//		$.each( data, function( key, val ) {
-//			console.log(key + ' ' + val);
-//		});
-	});
-
-	//
 
 	$('.category').click(function () {
 		curCategory = Number($(this).attr('id').substr(9));
 		debug('cat' + curCategory + 'question1');
-		curQuestion = window['cat' + curCategory + 'question1'];
-		debug(curQuestion);
-		loadQuestion();		
-
-		debug('curCategory: ' + curCategory);
-		$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-			$(this).removeClass();
-			$('#home').css('display', 'none');
-			showQuestion();
-		});		
+		loadCategoryData();
 	});
+
+	function loadCategoryData() {
+		$.getJSON( "ajax/cat" + curCategory + ".json", function( data ) {
+			categoryData = data;
+			debug(categoryData);
+			curQuestion = categoryData[0];
+			debug(curQuestion);
+			loadQuestion();				
+			$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass();
+				$('#home').css('display', 'none');
+				showQuestion();
+			});
+		});
+	}
 
 	function showQuestion() {
 		$('#question-frame').css('display', 'block');	
@@ -68,17 +64,20 @@ $(document).ready(function () {
 	function loadQuestion() {
 		$('#question').text(curQuestion.question);
 			for (var i = 0; i < 4; i++) {
-			$('#answer-' + i + '-text').text(convertToLetter(i) + '. ' + curQuestion.answers[i]);
+			$('#answer-' + i + '-text').text(convertToLetter(i) + '. ' + curQuestion.answers[i].answer);
 		}
-		$('#question-image').attr('src', 'images/question_images/cat' + curQuestion.category + 'q' + curQuestion.questionNum + '.jpg');
+		$('#question-image').attr('src', 'images/question_images/cat' + curQuestion.category + 'q' + curQuestion.id + '.jpg');
 	}
 	$('.answer').click(function () {
 		var playerAnswer = Number($(this).attr('id').substr(7));
 		var dialogMessage = '';
-		if (playerAnswer == curQuestion.correctAnswerIndex) {
+		var playerAnswer = curQuestion.answers[playerAnswer];
+		var correctAnswer = getCorrectAnswer(curQuestion.answers);
+
+		if ( playerAnswer  == correctAnswer ) {
 			numCorrect++;
 			dialogMessage = 'Correct!';
-			if(curQuestion.questionNum == numQuestions) {
+			if(curQuestion.id == numQuestions) {
 				dialogMessage = 'Correct!'; 
 			}
 			else {
@@ -86,16 +85,16 @@ $(document).ready(function () {
 			}			
 		}
 		else {
-			if(curQuestion.questionNum == numQuestions) {
-				dialogMessage = 'Sorry, the answer is: ' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' + 
-				curQuestion.answers[curQuestion.correctAnswerIndex];
+			if(curQuestion.id == numQuestions) {
+				dialogMessage = 'Sorry, the answer is: ' + convertToLetter(correctAnswer.id) + '. ' + 
+				correctAnswer.answer;
 			}
 			else {
-				dialogMessage = 'Sorry, the answer is: <h3>' + convertToLetter(curQuestion.correctAnswerIndex) + '. ' +
-				curQuestion.answers[curQuestion.correctAnswerIndex] + '</h3>';
+				dialogMessage = 'Sorry, the answer is: <h3>' + convertToLetter(correctAnswer.id) + '. ' +
+				correctAnswer.answer + '</h3>';
 			}
 		}
-		if(curQuestion.questionNum == numQuestions) {
+		if(curQuestion.id == numQuestions) {
 			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/' + numQuestions + ' </h2>';
 			numCorrect = 0;
 		}
@@ -105,6 +104,16 @@ $(document).ready(function () {
 		$('#message').html(dialogMessage);
 		hideQuestion();	
 	});
+
+	function getCorrectAnswer(answers) {
+		var correctAnswer;
+		$.each( answers, function( index ) {
+			if(answers[index].correct == true) {
+				correctAnswer = answers[index];
+			}
+  		});	
+  		return correctAnswer;
+	}
 
 	function hideQuestion() {
 		$('#question-frame').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -124,7 +133,7 @@ $(document).ready(function () {
 	}
 
 	$('#dialog-next').click(function() {
-		if(curQuestion.questionNum == numQuestions) {
+		if(curQuestion.id == numQuestions) {
 			curQuestion = null;
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
@@ -133,7 +142,7 @@ $(document).ready(function () {
 			});
 		}
 		else {
-			curQuestion = window['cat' + curCategory + 'question' + (curQuestion.questionNum + 1)];
+			curQuestion = categoryData[curQuestion.id + 1];
 			loadQuestion();
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
