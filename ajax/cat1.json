@@ -1,0 +1,326 @@
+[
+  {
+    "category": 1,
+    "id": 0,
+    "question": "Which actor starred in The Color of Money?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Tom Berenger",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Tom Cruise",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Tom Hanks",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Tom Stewart",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 1,
+    "question": "The actor Mel Gibson was born where?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Birmingham, England",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Peekskill, New York",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Wagga Wagga Australia",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Sydney, Australia",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 2,
+    "question": "Which actor has the real name of Charles Carter?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Chuck Norris",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Charles Atlas",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Charlton Heston",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "answer": "Jimmy Carter",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 3,
+    "question": "Monty Python's Flying Circus debuted on the BBC in what year?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "1959",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "1969",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "1979",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "1989",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 4,
+    "question": "Whose autobiography was called Back In The Saddle Again?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Gene Autry",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "answer": "Hopalong Cassidy",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Tom Mix",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Roy Rogers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 5,
+    "question": "Goldie Hawn's real first name is what?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Godiva",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Goldie",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Gloria",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Grace",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 6,
+    "question": "What was Walt Disney's Mickey Mouse's original name?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Manville",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Melvin",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Murgatroyd",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "answer": "Mortimer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 7,
+    "question": "Which of the following entertainers was the highest paid for the two years 1988 and 1989?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Bill Cosby",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Michael Jackson",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Madonna",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Oprah Winfrey",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 8,
+    "question": "Which actress starred in the original Broadway production of Cabaret as Sally Bowles?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Julie Andrews",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Carol Channing",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Jill Haworth",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Liza Minnelli",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 9,
+    "question": "Which of the following men were not married to Ava Gardner?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Richard Burton",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "answer": "Mickey Rooney",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Frank Sinatra",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Artie Shaw",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 10,
+    "question": "In the original Broadway production of The Unsinkable Molly Brown, who played the title role?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "Barbara Cook",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Tammy Grimes",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "answer": "Angela Lansbury",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Debbie Reynolds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "id": 11,
+    "question": "When it closed in 1990, what play on Broadway had been performed the most times?",
+    "answers": [
+      {
+        "id": 0,
+        "answer": "A Chorus Line",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "answer": "Annie",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "answer": "Fiddler on the Roof",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "answer": "Hello Dolly",
+        "correct": false
+      }
+    ]
+  }
+]
