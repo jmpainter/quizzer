@@ -109,7 +109,7 @@ h1 {
 #dialog-next {
 	display: block;
 	position: absolute;
-	bottom: 2rem;
+	bottom: 1.2rem;
 	right: 2rem;
 }
 a {
@@ -347,13 +347,19 @@ a:hover {
 @media only screen and (max-width: 850px) {
 	main {
 		margin: 0;
-		padding: 2.5rem 0 0;
+		padding: 4rem 0 0;
 		width: 100%;
 		height: 100vh;
 	}
 	body {
 		background-color: #000;
 	}
+	#dialog {
+		padding: 1rem 1rem 3rem;
+		width: 80%;
+		font-size: 1.3rem;
+		margin: 1rem auto;
+	}	
 }
 @media only screen and (max-width: 550px) {
 	main {
