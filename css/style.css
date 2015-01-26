@@ -93,6 +93,10 @@ h1 {
 	font-size: 1.6rem;
 	line-height: 1.8rem;
 }
+#dialog h1 {
+	font-size: 4rem;
+	margin: 2rem 0 3rem;
+}
 #dialog h2 {
 	font-size: 2.2rem;
 	margin: 2rem;
@@ -133,6 +137,17 @@ a:hover {
 	top: 1rem;
 	right: 1rem;
 	cursor: pointer;
+}
+#place-indicator {
+	position: absolute;
+	top: 1.6rem;
+	left: 1.6rem;
+	font-size: 1rem;
+	color: #fff;
+}
+.check {
+	margin: 0 4px;
+	display: none;
 }
 
 /* Animations */

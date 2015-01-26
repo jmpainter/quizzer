@@ -14,21 +14,22 @@ $(document).ready(function () {
 	var curQuestion = null;
 	var categoryData = null;
 	var numCorrect = 0;
-	var numQuestions = 12;
+	//testing  -return to 12
+	var numQuestions = 2;
 
 	$('.category').click(function () {
+		$('#dialog').css('background-color', '#fff');
 		curCategory = Number($(this).attr('id').substr(9));
-		debug('cat' + curCategory + 'question1');
 		loadCategoryData();
 	});
 
 	function loadCategoryData() {
 		$.getJSON( "ajax/cat" + curCategory + ".json", function( data ) {
 			categoryData = data;
-			debug(categoryData);
 			curQuestion = categoryData[0];
-			debug(curQuestion);
 			loadQuestion();				
+			$('#place-indicator').css('display', 'inline-block');
+			$('#place-indicator').text((curQuestion.id + 1) + ' of ' + numQuestions);			
 			$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 				$(this).removeClass();
 				$('#home').css('display', 'none');
@@ -77,7 +78,7 @@ $(document).ready(function () {
 		if ( playerAnswer  == correctAnswer ) {
 			numCorrect++;
 			dialogMessage = 'Correct!';
-			if(curQuestion.id == numQuestions) {
+			if(curQuestion.id == numQuestions - 1) {
 				dialogMessage = 'Correct!'; 
 			}
 			else {
@@ -85,7 +86,7 @@ $(document).ready(function () {
 			}			
 		}
 		else {
-			if(curQuestion.id == numQuestions) {
+			if(curQuestion.id == numQuestions - 1) {
 				dialogMessage = 'Sorry, the answer is: ' + convertToLetter(correctAnswer.id) + '. ' + 
 				correctAnswer.answer;
 			}
@@ -94,8 +95,11 @@ $(document).ready(function () {
 				correctAnswer.answer + '</h3>';
 			}
 		}
-		if(curQuestion.id == numQuestions) {
-			dialogMessage = dialogMessage + '<h2>Your final score: ' + numCorrect + '/' + numQuestions + ' </h2>';
+		if(curQuestion.id == numQuestions - 1) {
+			//display checkmark for completed category
+			$("#cat" + curCategory + "check").css('display', 'inline-block');
+			$('#dialog').css('background-color', '#fff44b');
+			dialogMessage = dialogMessage + '<h1>Congradulations!</h1><h2>Your final score: ' + numCorrect + '/' + numQuestions + ' </h2>';
 			numCorrect = 0;
 		}
 		else {
@@ -125,7 +129,6 @@ $(document).ready(function () {
 	}
 
 	function showDialog() {
-		debug('showDialog');
 		$('#dialog').css('display', 'block');
 		$('#dialog').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 			$(this).removeClass('fadeIn');
@@ -133,7 +136,7 @@ $(document).ready(function () {
 	}
 
 	$('#dialog-next').click(function() {
-		if(curQuestion.id == numQuestions) {
+		if(curQuestion.id == numQuestions - 1) {
 			curQuestion = null;
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
@@ -143,6 +146,7 @@ $(document).ready(function () {
 		}
 		else {
 			curQuestion = categoryData[curQuestion.id + 1];
+			$('#place-indicator').text((curQuestion.id + 1) + ' of ' + numQuestions);	
 			loadQuestion();
 			$('#dialog').addClass('fadeOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$(this).removeClass('fadeOut');
@@ -164,6 +168,7 @@ $(document).ready(function () {
 	});
 
 	function showCategories() {
+		$('#place-indicator').css('display', 'none');
 		$('#home').css('display', 'block');
 		$('#home').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 			$(this).removeClass('fadeIn');
