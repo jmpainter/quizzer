@@ -29,6 +29,9 @@ $(document).ready(function () {
 			curQuestion = categoryData[0];
 			loadQuestion();				
 			$('#place-indicator').css('display', 'inline-block');
+			$('#place-indicator').addClass('fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$(this).removeClass('fadeIn');
+			});
 			$('#place-indicator').text((curQuestion.id + 1) + ' of ' + numQuestions);			
 			$('#home').addClass('exitLeft').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
 				$(this).removeClass();
