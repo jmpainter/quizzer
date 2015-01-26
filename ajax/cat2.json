@@ -2,26 +2,26 @@
   {
     "category": 2,
     "id": 0,
-    "question": "",
+    "question": "Which of the following explorers reached the North Pole?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Roald Amundsen",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "Robert E. Peary",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "William Barents",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Adam Sound",
         "correct": false
       }
     ]
@@ -29,26 +29,26 @@
   {
     "category": 2,
     "id": 1,
-    "question": "",
+    "question": "History students are taught about the 'the fall of Constantinople' in 1453. to who did it fall?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Christian crusaders",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Mongol hordes",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
-        "correct": false
+        "answer": "Ottoman Turks",
+        "correct": true
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Romans",
         "correct": false
       }
     ]
@@ -56,26 +56,26 @@
   {
     "category": 2,
     "id": 2,
-    "question": "",
+    "question": "Which American commander said, 'I have not yet begun to fight'?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
-        "correct": false
+        "answer": "John Paul Jones",
+        "correct": true
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "David Farragut",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "George Dewey",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Oliver Hazard Perry",
         "correct": false
       }
     ]
@@ -83,53 +83,53 @@
   {
     "category": 2,
     "id": 3,
-    "question": "",
+    "question": "Catherine the Great ruled what country?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "England",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "France",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Germany",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
-        "correct": false
+        "answer": "Russia",
+        "correct": true
       }
     ]
   },
   {
     "category": 2,
     "id": 4,
-    "question": "",
+    "question": "What was the next state after the original 13 to be admitted to the United States?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Florida",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Kentucky",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
-        "correct": false
+        "answer": "Vermont",
+        "correct": true
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "West Virginia",
         "correct": false
       }
     ]
@@ -137,26 +137,26 @@
   {
     "category": 2,
     "id": 5,
-    "question": "",
+    "question": "The Creoles of today's New Orleans are descended from whom?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "French Canadians from Nova Scotia",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "French and Spanish settlers who lived in the city",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "refugees from the Crimean War",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "none of the above",
         "correct": false
       }
     ]
@@ -164,26 +164,26 @@
   {
     "category": 2,
     "id": 6,
-    "question": "",
+    "question": "George Washington is called the father of our country, but how many kids did Mr. Washington really have?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
-        "correct": false
+        "answer": "0",
+        "correct": true
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "1",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "3",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "7",
         "correct": false
       }
     ]
@@ -191,53 +191,53 @@
   {
     "category": 2,
     "id": 7,
-    "question": "",
+    "question": "What were the first names of the famous explorers Lewis and Clark?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Clark and Lewis",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "John and Lincoln",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Benjamin and Samuel",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
-        "correct": false
+        "answer": "Meriwether and William",
+        "correct": true
       }
     ]
   },
   {
     "category": 2,
     "id": 8,
-    "question": "",
+    "question": "Where was the UN headquarters located prior to them moving to Manhattan's East Side?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "San Francisco",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "Long Island, New York",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Geneva, Switzerland",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Paris, France",
         "correct": false
       }
     ]
@@ -245,26 +245,26 @@
   {
     "category": 2,
     "id": 9,
-    "question": "",
+    "question": "John Brown of Civil War fame was which?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
-        "correct": false
+        "answer": "an abolitionist",
+        "correct": true
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "a slave",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "a slave-owner",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "none of the above",
         "correct": false
       }
     ]
@@ -272,26 +272,26 @@
   {
     "category": 2,
     "id": 10,
-    "question": "",
+    "question": "What frontier marshal was murdered in 1876 in Deadwood, South Dakota, by outlaw Jack McCall?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Buffalo Bill Cody",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Matt Dillon",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Wild Bill Hickok",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Bat Masterson",
         "correct": false
       }
     ]
@@ -299,26 +299,26 @@
   {
     "category": 2,
     "id": 11,
-    "question": "",
+    "question": "In what year did Leonard Kristensen of Norway lead the first party to land on the mainland of Antarctica?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "1795",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "1845",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
-        "correct": false
+        "answer": "1895",
+        "correct": true
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "1945",
         "correct": false
       }
     ]
