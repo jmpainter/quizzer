@@ -2,26 +2,26 @@
   {
     "category": 4,
     "id": 0,
-    "question": "",
+    "question": "What year did cigarette commercials stop appearing on TV?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
-        "correct": false
+        "answer": "1971",
+        "correct": true
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "1966",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "2963",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "1977",
         "correct": false
       }
     ]
@@ -29,53 +29,53 @@
   {
     "category": 4,
     "id": 1,
-    "question": "",
+    "question": "What city has served twice as host of the modern Winter Olympic Games?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Innsbruck, Austria",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Lake Placid, New York",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "St. Moritz, Switzerland",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
-        "correct": false
+        "answer": "all of the above",
+        "correct": true
       }
     ]
   },
   {
     "category": 4,
     "id": 2,
-    "question": "",
+    "question": "In a quarter-mile race, which animal can be expected to win?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "lion",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "pronghorn antelope",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "giraffe",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "quarter horse",
         "correct": false
       }
     ]
@@ -83,80 +83,80 @@
   {
     "category": 4,
     "id": 3,
-    "question": "",
+    "question": "In the 1972 chess tournament held in Reykjavik, Iceland, who did Bobby Fischer defeat?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Tigran Petrosian",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Anatoly Karpov",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Gary Kasparov",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
-        "correct": false
+        "answer": "Boris Spassky",
+        "correct": true
       }
     ]
   },
   {
     "category": 4,
     "id": 4,
-    "question": "",
+    "question": "Whose real name was Thomas Lanier Williams?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Robin Williams",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Ted Williams",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Andy Williams",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
-        "correct": false
+        "answer": "Tennessee Williams",
+        "correct": true
       }
     ]
   },
   {
     "category": 4,
     "id": 5,
-    "question": "",
+    "question": "What is the traditional gift for a 40th wedding anniversary?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "emerald",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "diamond",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
-        "correct": false
+        "answer": "ruby",
+        "correct": true
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "sapphire",
         "correct": false
       }
     ]
@@ -164,26 +164,26 @@
   {
     "category": 4,
     "id": 6,
-    "question": "",
+    "question": " group of lions is called a 'pride'. What word would be used to describe a group of crows?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "a colony",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "a barn",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "a murder",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "a flock",
         "correct": false
       }
     ]
@@ -191,26 +191,26 @@
   {
     "category": 4,
     "id": 7,
-    "question": "",
+    "question": "What is a fandango",
     "answers": [
       {
         "id": 0,
-        "answer": "",
-        "correct": false
+        "answer": "a dance",
+        "correct": true
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "a food",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "a hat",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "a grass skirt",
         "correct": false
       }
     ]
@@ -218,26 +218,26 @@
   {
     "category": 4,
     "id": 8,
-    "question": "",
+    "question": "A golfer is permitted to use an assortment of no more than how many clubs in a regulation round?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "16",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "14",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "12",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "10",
         "correct": false
       }
     ]
@@ -245,26 +245,26 @@
   {
     "category": 4,
     "id": 9,
-    "question": "",
+    "question": "Which member of the Ivy League was founded under the name King's College?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Brown",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Columbia",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "Cornell",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Dartmouth",
         "correct": false
       }
     ]
@@ -272,26 +272,26 @@
   {
     "category": 4,
     "id": 10,
-    "question": "",
+    "question": "The Peace Corps had its greatest number of volunteers in which year?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "1956",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
-        "correct": false
+        "answer": "1966",
+        "correct": true
       },
       {
         "id": 2,
-        "answer": "",
+        "answer": "1976",
         "correct": false
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "1986",
         "correct": false
       }
     ]
@@ -299,26 +299,26 @@
   {
     "category": 4,
     "id": 11,
-    "question": "",
+    "question": "When Mt. Pelee erupted it killed 40,000 people. On what island is Mt. Pelee located?",
     "answers": [
       {
         "id": 0,
-        "answer": "",
+        "answer": "Hawaii",
         "correct": false
       },
       {
         "id": 1,
-        "answer": "",
+        "answer": "Java",
         "correct": false
       },
       {
         "id": 2,
-        "answer": "",
-        "correct": false
+        "answer": "Martiniqu",
+        "correct": true
       },
       {
         "id": 3,
-        "answer": "",
+        "answer": "Sicily",
         "correct": false
       }
     ]

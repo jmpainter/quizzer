@@ -1,326 +1,326 @@
 [
-  {
-    "category": 5,
-    "id": 0,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 1,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 2,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 3,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 4,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 5,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 6,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 7,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 8,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 9,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 10,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 5,
-    "id": 11,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  }
+	{
+		"category": 5,
+		"id": 0,
+		"question": "What was the average life expectancy of white males born in the U.S. just before the Civil War?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "40 years",
+				"correct": true
+			},
+			{
+				"id": 1,
+				"answer": "50 years",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "60 years",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "70 years",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 1,
+		"question": "Which one of the following instruments is used to measure humidity?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "anemometer",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "ammeter",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "hygrometer",
+				"correct": true
+			},
+			{
+				"id": 3,
+				"answer": "barometer",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 2,
+		"question": "Which two planets are most similar in size diameter wise?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Mars and Mercury",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Venus and Earth",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "Uranus and Neptune",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "Jupiter and Saturn",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 3,
+		"question": "What principle explains why cold food warms up and hot food cools off when stored at room temperature?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "entropy",
+				"correct": true
+			},
+			{
+				"id": 1,
+				"answer": "chemical equilibrium",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "momentum",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "relativity",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 4,
+		"question": "Which color is not considered to be one of the primary colors of light?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "red",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "yellow",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "green",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "blue",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 5,
+		"question": "What causes the disease toxoplasmosis?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "a bacterium",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "a protozoan",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "a virus",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "a prion",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 6,
+		"question": "Many scientists think that some of the dinosaurs did not go extinct, but rather evolved into what kind of creature?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "amphibians",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "reptiles",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "birds",
+				"correct": true
+			},
+			{
+				"id": 3,
+				"answer": "mammals",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 7,
+		"question": "In which kind of geometry is the sum of the angles inside a triangle exactly equal to 180 degrees?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "elliptical",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "hyperbolic",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "Euclidean",
+				"correct": true
+			},
+			{
+				"id": 3,
+				"answer": "Pythagorean",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 8,
+		"question": "What is the name of the disease that has been referred to as the 'disease of kings'?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "jaundice",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "syphilis",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "rubella",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "hemophilia",
+				"correct": true
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 9,
+		"question": "What would be the most likely thing one would do with the compound MgSO4 7H2O?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "power a car",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "blow up a building",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "fertilize a lawn",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "soak ones feet",
+				"correct": true
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 10,
+		"question": "Amps are a unit of measurement of what?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "electric charge",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "electric current",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "electric field strength",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "electric potential",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 5,
+		"id": 11,
+		"question": " In which century was the greatest number of chemical elements discovered?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "17th",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "18th",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "19th",
+				"correct": true
+			},
+			{
+				"id": 3,
+				"answer": "20th",
+				"correct": false
+			}
+		]
+	}
 ]

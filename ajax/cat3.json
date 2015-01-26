@@ -1,326 +1,326 @@
 [
-  {
-    "category": 3,
-    "id": 0,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 1,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 2,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 3,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 4,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 5,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 6,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 7,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 8,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 9,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 10,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "category": 3,
-    "id": 11,
-    "question": "",
-    "answers": [
-      {
-        "id": 0,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 1,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 2,
-        "answer": "",
-        "correct": false
-      },
-      {
-        "id": 3,
-        "answer": "",
-        "correct": false
-      }
-    ]
-  }
+	{
+		"category": 3,
+		"id": 0,
+		"question": "The Invisible Man , a classic science fiction novel, was written by what author?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Robert Louis Stevenson",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "H. G. Wells",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "Oscar Wilde",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "Jules Verne",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 1,
+		"question": "According to the book 'Lost Horizon', where was the fictional city  of Shangri-La located?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "an island in the South Pacific",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "the mountains of Tibet",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "the jungles of Africa",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "the jungles of Brazil",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 2,
+		"question": "Who was the author of 'Rip Van Winkle'?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "James Fennimore Cooper",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Washington Irving",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "Robert Louis Stevenson",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "Nathaniel Hawthorne",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 3,
+		"question": "In a Mark twain novel, a mechanic from what New England state went back in time and visited King Arthur's court?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Massachusetts",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Connecticut",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "Rhode Island",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "New Hampshire",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 4,
+		"question": "Who are the men in the nursery rhyme that begins, 'Rub-a-dub-db / Three men in a tub.'",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Solomon Grundy's children",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "the butcher, the baker, the candlestick maker",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "the three musketeers",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "three men of Gotham",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 5,
+		"question": "In Charles Dickens's novel 'A Tale of Two Cities', what are names of the two cities?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Boston and New York",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Rome and Venice",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "Brussels and Moscow",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "London and Paris",
+				"correct": true
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 6,
+		"question": "Who wrote the early science fiction work titled 'Voyage to the Moon'?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Francis Bacon",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Cyrano de Bergerac",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "Rene Descartes",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "William Shakespeare",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 7,
+		"question": "The lines, 'Oh, East is East and West is West, / And never the twain shall meet' were written by whom?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Lord Byron",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "G.K. Chesterton",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "Thomas Hood",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "Rudyard Kipling",
+				"correct": true
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 8,
+		"question": "Who wrote the sonnet that starts out 'Much  have I travell'd in the realms of gold'?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "John Donne",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "John Keats",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "John Milton",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "John Smith",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 9,
+		"question": "What is the title of the Steinbeck novel about Tom Joad and his family of migrant farm workers?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Cannery Row",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "The Grapes of Wrath",
+				"correct": true
+			},
+			{
+				"id": 2,
+				"answer": "Of Mice and Men",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "East of Eden",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 10,
+		"question": "Who wrote Rip Van Winkle?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "James Fenimore Cooper",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Nathaniel Hawthorne",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "Washington Irving",
+				"correct": true
+			},
+			{
+				"id": 3,
+				"answer": "Robert Louis Stevenson",
+				"correct": false
+			}
+		]
+	},
+	{
+		"category": 3,
+		"id": 11,
+		"question": "Which one of the following was not one of The Three Musketeers?",
+		"answers": [
+			{
+				"id": 0,
+				"answer": "Aramis",
+				"correct": false
+			},
+			{
+				"id": 1,
+				"answer": "Athos",
+				"correct": false
+			},
+			{
+				"id": 2,
+				"answer": "D' Artagnan",
+				"correct": false
+			},
+			{
+				"id": 3,
+				"answer": "Porthos",
+				"correct": false
+			}
+		]
+	}
 ]
