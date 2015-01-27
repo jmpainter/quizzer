@@ -14,8 +14,7 @@ $(document).ready(function () {
 	var curQuestion = null;
 	var categoryData = null;
 	var numCorrect = 0;
-	//testing  -return to 12
-	var numQuestions = 2;
+	var numQuestions = 12;
 
 	$('.category').click(function () {
 		$('#dialog').css('background-color', '#fff');

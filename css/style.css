@@ -4,12 +4,12 @@ body {
 }
 main {
 	margin: 2rem auto;
-	padding: 3.5rem 2rem;
+	padding: 4.5rem 2rem 0;
 	width: 700px;
 	background-color: black;
 	border: 1px solid #878787;
 	text-align: center;
-	height: 77vh;
+	height: 82vh;
 	position: relative;
 }
 h1 {
@@ -80,7 +80,8 @@ h1 {
 #dialog, #question {
 	background-color: #fff;
 	border-radius: 1rem;
-	border: 1px solid #dbdbdb;	
+	border: 1px solid #dbdbdb;
+	box-sizing: border-box;
 }
 #dialog {
 	padding: 2rem 1rem 3rem;
@@ -377,7 +378,7 @@ a:hover {
 	#question {
 		font-size: 1.1rem;
 		padding: 1rem;
-		margin-top: 1rem;
+		margin-top: .7rem;
 	}
 	#dialog {
 		padding: 1rem 1rem 3rem;

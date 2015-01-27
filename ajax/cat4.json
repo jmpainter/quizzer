@@ -179,7 +179,7 @@
       {
         "id": 2,
         "answer": "a murder",
-        "correct": false
+        "correct": true
       },
       {
         "id": 3,
@@ -255,7 +255,7 @@
       {
         "id": 1,
         "answer": "Columbia",
-        "correct": false
+        "correct": true
       },
       {
         "id": 2,
@@ -313,7 +313,7 @@
       },
       {
         "id": 2,
-        "answer": "Martiniqu",
+        "answer": "Martinique",
         "correct": true
       },
       {

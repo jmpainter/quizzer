@@ -174,7 +174,7 @@
 			{
 				"id": 1,
 				"answer": "Cyrano de Bergerac",
-				"correct": false
+				"correct": true
 			},
 			{
 				"id": 2,
@@ -272,26 +272,26 @@
 	{
 		"category": 3,
 		"id": 10,
-		"question": "Who wrote Rip Van Winkle?",
+		"question": "Which of these titles were not a book written by Dr. Seuss?",
 		"answers": [
 			{
 				"id": 0,
-				"answer": "James Fenimore Cooper",
+				"answer": "The Cat in the Hat",
 				"correct": false
 			},
 			{
 				"id": 1,
-				"answer": "Nathaniel Hawthorne",
-				"correct": false
-			},
-			{
-				"id": 2,
-				"answer": "Washington Irving",
+				"answer": "The Frog in the Bog ",
 				"correct": true
 			},
 			{
+				"id": 2,
+				"answer": "Hop on Pop",
+				"correct": false
+			},
+			{
 				"id": 3,
-				"answer": "Robert Louis Stevenson",
+				"answer": "Hunches in Bunches",
 				"correct": false
 			}
 		]
@@ -314,7 +314,7 @@
 			{
 				"id": 2,
 				"answer": "D' Artagnan",
-				"correct": false
+				"correct": true
 			},
 			{
 				"id": 3,

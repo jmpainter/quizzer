@@ -210,7 +210,7 @@
 			},
 			{
 				"id": 3,
-				"answer": "Pythagorean",
+				"answer": "Non-Euclidean",
 				"correct": false
 			}
 		]
@@ -237,7 +237,7 @@
 			},
 			{
 				"id": 3,
-				"answer": "hemophilia",
+				"answer": "gout",
 				"correct": true
 			}
 		]
